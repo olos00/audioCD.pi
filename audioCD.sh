@@ -7,6 +7,7 @@ function create_ramdisk(){
 
 function rip() {
  sudo abcde -d /dev/sr0 -o flac -G -N
+ eject
 }
 
 function start_upnp() {
